@@ -1,0 +1,105 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+
+% Set applicant's personal data for header
+\name{Caliz Blanco,\linebreak Alejo Martin Ezequiel}
+\address{2922 Domingo de Acassuso \linebreak Olivos Buenos Aires 1636}
+\contacts{(+54) 011 32935066 \linebreak alejocalizblanco@gmail.com}
+
+\begin{document}
+
+	% Imprimir el encabezado
+	\makeheader
+	
+	% Imprimir el contenido
+	\begin{cvsection}{Experiencia Laboral}
+		\begin{cvsubsection}{Desarrollador Full Stack}{NDA}{Enero 2024 -- Presente}
+			NDA App
+			\begin{itemize}
+				\item Desarrollé diversas funcionalidades tanto para nutricionistas como para pacientes.
+				\item Actualicé parte de la infraestructura reemplazando tecnologías obsoletas por soluciones estándar de la industria.
+				\item Implementé un modelo de negocio multi-tenant reutilizando el código existente de la aplicación.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Ayudante de Primera}{Facultad de Ingeniería, Universidad de Buenos Aires}{Agosto 2022 -- Presente}
+			Ciencia de Datos
+			\begin{itemize}
+				\item Diseñé y evalué diversos trabajos prácticos enfocados en análisis de datos, manipulación de datos y aprendizaje automático.
+				\item Preparé y dicté clases para grupos de más de 100 estudiantes.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Ayudante de Primera}{Facultad de Ingeniería, Universidad de Buenos Aires}{Febrero 2024 -- Presente}
+			Sistemas de Bases de Datos
+			\begin{itemize}
+				\item Diseñé y evalué exámenes sobre temas como SQL, NoSQL, concurrencia en bases de datos, bases de datos distribuidas, diagramas entidad-relación, álgebra relacional, entre otros.
+				\item Preparé y dicté clases para grupos de más de 100 estudiantes.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Educación}
+		\begin{cvsubsection}{CABA, Buenos Aires}{Facultad de Ingeniería, Universidad de Buenos Aires}{Julio 2018 -- Febrero 2025}
+			Ingeniería en Software
+			\begin{itemize}
+				\item Arquitectura de software, programación concurrente y sistemas distribuidos.
+				\item Sistemas operativos, bases de datos y estructuras de datos.
+				\item Ciencia de datos, análisis de datos e ingeniería de datos.
+				\item Algoritmos, arquitectura de computadoras y principios de ingeniería de software.
+				\item Metodologías de programación y buenas prácticas.
+				\item Física, matemáticas y estadística.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}	
+	
+	\begin{cvsection}{Experiencia Técnica}
+		\begin{cvsubsection}{Proyectos}{}{}
+			\begin{itemize}
+				\item \textbf{Ahorratón} (2024). Una PWA diseñada para ayudar a los usuarios a ahorrar dinero comparando precios en diferentes supermercados. Tecnologías utilizadas: Python, React, MUI, SQL y Docker.
+				\item \textbf{Aplicación Social Similar a Twitter} (2023). Una aplicación de red social basada en microservicios que permite a los usuarios publicar "tweets," subir imágenes, seguir a otros usuarios y más. Tecnologías utilizadas: Python, Go, JavaScript, React, SQL, NoSQL, Docker y Kubernetes.
+				\item \textbf{Clon 2D de Left 4 Dead} (2023). Un juego multijugador cooperativo en línea que soporta múltiples sesiones simultáneas, construido con una arquitectura cliente-servidor. Implementado en C++.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Lenguajes y Tecnologías}
+		\begin{cvsubsection}{}{}{}
+			\begin{itemize}
+				\item \textbf{Proficiente en:}
+				\subitem Python; SQL; React; Docker; Git; UNIX; NoSQL; Pandas; Spark
+				\item \textbf{Competente en:}
+				\subitem Go (Golang); C++; JavaScript; Vue
+				\item \textbf{Familiarizado y dispuesto a aprender:}
+				\subitem Rust; C; Ruby; Angular; Flutter; Swift; AWS; Azure; GCP
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	
+\end{document}

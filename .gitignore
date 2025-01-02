@@ -9,6 +9,9 @@
 *.gz
 *.pdf
 
+!CV-English.pdf
+!CV-Spanish.pdf
+
 ## Intermediate documents:
 *.dvi
 *-converted-to.*
